@@ -1,0 +1,44 @@
+.firstDiv{
+  color: red;
+}
+.secondDiv{
+  color:blue;
+}
+
+#single{
+  color:green;
+  text-decoration: line-through;
+}
+
+/* *{
+  color:black
+} */
+
+h3 + ul{
+  border: 2px dotted purple;
+}
+
+li a{
+  color:red;
+}
+
+li a[href="https://www.twitter.com"]{
+  color:blue;
+  border:2px solid pink;
+}
+
+input:default{
+  box-shadow: 0 0 1px 1px red;
+}
+
+h4 + ol {
+  color: red;
+}
+
+.topitems{
+  color: yellow;
+}
+
+#two{
+  border: 3px solid pink;
+}

@@ -1,0 +1,48 @@
+h1{
+    font-family: 'REM', sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+h2{
+    font-family: 'REM', sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+#first_para{
+    font-family: 'REM', sans-serif;
+    word-wrap: normal;
+    width: 600px;
+    color: aliceblue;
+    /* text-align: center; */
+}
+
+#second_para{
+    font-family: 'REM', sans-serif;
+    word-wrap: normal;
+    width: 600px;
+    color: aliceblue;
+    /* text-align: center; */
+}
+
+form{
+    font-family: 'REM', sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+.button{
+    font-size: 1em;
+    background-color: #edb305;
+    border-radius: 25px;
+    width: 125px;
+    height: 60px;
+}
+
+body{
+    background-color: #090959;
+    margin: 0px;
+    border: 75px solid #12c4b8;
+    border-top: 0px;
+}

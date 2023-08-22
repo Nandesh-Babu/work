@@ -1,0 +1,26 @@
+body{
+  background-image: url("12319.jpg");
+  background-color: #cccccc;
+  height: 1000px;
+  background-position: middle;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div{
+/* background: #060d04; */
+border-color: orange;
+border-width: 4px;
+border-style: double;
+
+}
+
+p{
+  color: yellow;
+}
+
+span{
+background: red;
+color: #060d04;
+
+}

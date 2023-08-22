@@ -1,0 +1,22 @@
+/* Hi this is css */
+/* selected tag{
+  property: value;
+} */
+
+h1{
+  color: red;
+
+}
+
+li{
+color: rgb(102,125,69);
+
+}
+
+p{
+  color: #457c7d;
+}
+
+h4{
+  color: rgba(13, 4, 13,0.5)
+}
