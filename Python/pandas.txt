@@ -1,0 +1,12 @@
+import pandas as pd
+dict1 = {'s1':176.2,'s2':158.4,'s3':167.6,'s4':156.2,'s5':161.4}
+heights_A=pd.Series(dict1)
+print(heights_A)
+
+dict2 = {'s1':85.1,'s2':90.2,'s3':76.8,'s4':80.4,'s5':78.9}
+weights_A=pd.Series(dict2)
+print(weights_A)
+
+data = {'Student_height':['Tom', 'nick', 'krish', 'jack'],'Student_weight':[20, 21, 19, 18]}
+df = pd.DataFrame(data)
+print(df)
