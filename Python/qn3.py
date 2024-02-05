@@ -1,5 +1,5 @@
-# largest and smallest no in list : [20,10,20,1,100]
-
+# second/ largest and smallest no in list : [20,10,20,1,100]
+# op: [1,100]
 l = [20,10,20,1,100,200,0]
 
 c = len(set(l))

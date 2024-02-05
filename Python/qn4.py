@@ -1,4 +1,4 @@
-#Replace duplicate Occurrence in String test_str = 'Gfg is best . Gfg also has Classes now. \ Classes help understand better .
+#Replace duplicate Occurrence in String test_str = 'Gfg is best . Gfg also has Classes now. \ Classes help understand better .'
 # ' repl_dict = {'Gfg' : 'It', 'Classes' : 'They' } output: Gfg is best.It also has Classes now. They help understand better
 
 test_str = 'Gfg is best . Gfg also has Classes now. \ Classes help understand better'

@@ -1,5 +1,5 @@
 # print duplicate string : helloo
-
+# op: ["l","o"]
 s = "helloo"
 l=[]
 for i in range(len(s)):
