@@ -40,6 +40,7 @@ print("model_year------median",df["model_year"].median())
 
 print("model_year------SD",df["model_year"].std())
 
+#categorical columns count
 print("distribution of categorical columns using values count",df['engine_type'].value_counts(),df['color'].value_counts(),df['model_name'].value_counts(),end="\n")
 
 #Count cars by year
