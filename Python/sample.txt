@@ -1,0 +1,17 @@
+empid ,name, salary , dept id
+
+
+select empid,name,salary,deptid
+ (select *, dense_rank() over(parition by deptid order by salary desc) as rn
+from emp_table)
+where rn >=5 and rn<=8
+
+identify dates for which three days running average is less than rain happenended on that current date
+
+ 
+
+select date,mm from(
+ select  avg(mm) as runningavg_mm from table where date >=current_date()-1 and date<=current_date+1
+) from table
+
+where runningavg_mm < mm 

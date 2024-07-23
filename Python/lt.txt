@@ -1,0 +1,34 @@
+
+A 10k D1
+B 20k D2
+C 30k D2
+D 40k D1
+E 50k D1
+F 60k D3
+G 80k D3
+
+select * from
+(select emp_id, salary, dept, 
+
+dense_rank() over(partition by dept order by salary desc ) as rn 
+from table
+)
+where rn = 2
+
+
+select *
+from table 
+where
+ salary in (select salary from(select distinct salary,count(salary) as cnt from table group by 1 having cnt>1) )
+
+
+abcba
+
+
+
+
+
+
+create table new_table as (select schema from `datasetname.INFORMATION_SCHEMA.SCHEMA` where table_name like '%original_table%' )
+
+create table new_table as (select * from original_table where 1=2 or limit 0)

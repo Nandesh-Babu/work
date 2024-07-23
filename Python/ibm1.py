@@ -6,9 +6,9 @@ k = 2
 c=0
 for i in range(0,a):
     for j in range(i+1,a):
-        print(j)
+        # print(j)
         if a_count[i] == a_count[j]:
-            for k in range(0,len(set(b))):
+            for k in range(0,len(set(b_count))):
                 if b_count[k] not in a_count:
                     # print(i,j)
                     a_count[j] =  b_count[k]
@@ -18,6 +18,7 @@ for i in range(0,a):
         break
 
 a_count = set(a_count)
+print(a_count)
 print(len(a_count))
 
 

@@ -1,0 +1,17 @@
+select * from (
+select 
+
+b.student_name,b.student_department,a.student_subject,a.student_marks,
+
+RANK() over(partition by student_subject  order by student_marks desc) as rn
+
+
+from student_marks as a, student_details as b
+
+where
+
+a.studentid = b.studentid
+
+order by rn)
+
+where rn in (2,3)
